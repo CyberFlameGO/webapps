@@ -18,7 +18,7 @@ import { generatePath } from 'react-router';
 import { merge } from 'lodash';
 import { AuthProvider, Auth2faType, PreferredMfaType } from 'shared/services';
 import { RecordingType } from 'teleport/services/recordings';
-import { SortType } from './components/ServersideSearchPanel/useServerSideSearchPanel';
+import { SortType } from './encodeUrlQueryParams';
 import generateResourcePath from './generateResourcePath';
 
 const cfg = {
